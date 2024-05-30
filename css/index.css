@@ -71,4 +71,28 @@
 	margin-left: 5px;
 	border-radius: 10px;
 	padding: 10px;
+	display: flex;
+	flex-direction: row;
+}
+
+.weather-current-container {
+	background-color: #202020;
+	border-radius: 10px;
+	padding: 10px;
+	margin-right: 5px;
+}
+
+.weather-hourly-container {
+	background-color: #202020;
+	border-radius: 10px;
+	padding: 10px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.weather-daily-container {
+	background-color: #202020;
+	border-radius: 10px;
+	padding: 10px;
+	margin-left: 5px;
 }
