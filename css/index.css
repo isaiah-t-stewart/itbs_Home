@@ -96,3 +96,21 @@
 	padding: 10px;
 	margin-left: 5px;
 }
+
+.weather-current-table {
+	height: 100%;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.weather-current-table td {
+	border: 1px solid blue;
+	padding: 10px;
+	text-align: center;
+}
+
+.weather-current-temp {
+	font-size: 5em;
+	font-weight: bold;
+	font-family: "Consolas", monospace;
+}
