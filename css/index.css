@@ -30,7 +30,7 @@
 	border-collapse: collapse;
 }
 
-.calendar-table th, td {
+.calendar-table th {
 	width: 14.29%;
 	padding: 10px;
 }
@@ -38,6 +38,8 @@
 .calendar-table td {
 	font-family: "Consolas", monospace;
 	text-align: center;
+	width: 14.29%;
+	padding: 10px;
 }
 
 .calendar-table th {
@@ -75,6 +77,55 @@
 	margin-right: 5px;
 }
 
+.weather-current-tables-container {
+	height: 100%;
+	border-collapse: collapse;
+}
+
+.weather-current-tables-container td {
+	width: 50%;
+}
+
+.weather-current-current-location-cell {
+	padding-bottom: 5px;
+}
+
+.weather-current-location-1-cell {
+	padding-top: 5px;
+	padding-right: 5px;
+}
+
+.weather-current-location-2-cell {
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+.weather-current-current-location-container {
+	background-image: linear-gradient(to bottom, #80bfff, #0000ff);
+	border-radius: 10px;
+	height: 100%;
+}
+
+.weather-current-location-1-container {
+	background-image: linear-gradient(to bottom, #bfbfff, #80bfff);
+	padding: 10px;
+	border-radius: 10px;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	text-shadow: 0px 0px 10px #000000;
+}
+
+.weather-current-location-2-container {
+	background-image: linear-gradient(to bottom, #0000ff, #000000);
+	padding: 10px;
+	border-radius: 10px;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	text-shadow: 0px 0px 10px #000000;
+}
+
 .weather-hourly-container {
 	background-color: #202020;
 	border-radius: 10px;
@@ -88,22 +139,4 @@
 	border-radius: 10px;
 	padding: 10px;
 	margin-left: 5px;
-}
-
-.weather-current-table {
-	height: 100%;
-	width: 100%;
-	border-collapse: collapse;
-}
-
-.weather-current-table td {
-	border: 1px solid blue;
-	padding: 10px;
-	text-align: center;
-}
-
-.weather-current-temp {
-	font-size: 5em;
-	font-weight: bold;
-	font-family: "Consolas", monospace;
 }
