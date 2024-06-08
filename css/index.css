@@ -43,7 +43,7 @@
 }
 
 .calendar-table th {
-	border-bottom: 1px solid #ff4000;
+	border-bottom: 1px solid #404040;
 }
 
 .calendar-month-and-year {
@@ -90,6 +90,43 @@
 	border-collapse: collapse;
 }
 
-.world-clocks-table td {
-	border: 1px solid blue;
+.world-clocks-table tr {
+	padding: 10px;
+}
+
+.world-clocks-table div {
+	display: flex;
+	flex-direction: row;
+}
+
+.world-clocks-table span {
+	text-align: center;
+}
+
+.world-clock-city {
+	font-weight: bold;
+}
+
+.world-clocks-city-1 {
+	border-bottom: 1px solid #404040;
+}
+
+.world-clocks-city-2 {
+	border-bottom: 1px solid #404040;
+}
+
+.world-clocks-city-3 {
+	border-bottom: 1px solid #404040;
+}
+
+.world-clocks-city-4 {
+	border-bottom: 1px solid #404040;
+}
+
+.world-clocks-city-5 {
+	border-bottom: 1px solid #404040;
+}
+
+.world-clocks-city-6 {
+	border-bottom: 1px solid #404040;
 }
