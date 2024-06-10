@@ -107,8 +107,21 @@
 	font-weight: bold;
 }
 
+.world-clock-country {
+	font-style: italic;
+}
+
+.world-clock-utc-offset {
+	font-family: "Consolas", monospace;
+}
+
 .world-clock-time {
 	font-weight: bold;
+	font-family: "Consolas", monospace;
+}
+
+.world-clock-date {
+	font-family: "Consolas", monospace;
 }
 
 .world-clocks-city-1 {
@@ -133,4 +146,9 @@
 
 .world-clocks-city-6 {
 	border-bottom: 1px solid #404040;
+}
+
+.world-clock-new-york-city {
+	background-color: #ff4000;
+	border-radius: 10px;
 }
